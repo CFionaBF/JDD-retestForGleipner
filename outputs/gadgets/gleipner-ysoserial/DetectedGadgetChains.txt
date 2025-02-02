@@ -1,0 +1,16 @@
+[EXEC Gadget] <gleipner.chains.ysoserial.urldns.URL: int hashCode()>
+ -> <gleipner.chains.ysoserial.urldns.URLStreamHandler: int hashCode(gleipner.chains.ysoserial.urldns.URL)>
+ -> <gleipner.chains.ysoserial.urldns.URLStreamHandler: java.lang.String getHostAdress(gleipner.chains.ysoserial.urldns.URL)>
+ -> <gleipner.chains.ysoserial.urldns.URL: java.lang.String getHostAddress()>
+ -> <gleipner.core.SinkGadget: void sinkMethod(java.lang.String)>
+
+[EXEC Gadget] <gleipner.chains.ysoserial.hibernate1.Hibernate_TypedValue: int hashCode()>
+ -> <gleipner.chains.ysoserial.hibernate1.Hibernate_ValueHolder: java.lang.Object getValue()>
+ -> <gleipner.chains.ysoserial.hibernate1.Hibernate_TypedValue$1: java.lang.Object initialize()>
+ -> <gleipner.chains.ysoserial.hibernate1.Hibernate_TypedValue$1: java.lang.Integer initialize()>
+ -> <gleipner.chains.ysoserial.hibernate1.Hibernate_ComponentType: int getHashCode(java.lang.Object)>
+ -> <gleipner.chains.ysoserial.hibernate1.Hibernate_ComponentType: java.lang.Object getPropertyValue(java.lang.Object,int)>
+ -> <gleipner.chains.ysoserial.hibernate1.Hibernate_AbstractComponentTuplizer: java.lang.Object getPropertyValue(java.lang.Object,int)>
+ -> <gleipner.chains.ysoserial.hibernate1.Hibernate_GetterMethodImpl: java.lang.Object get(java.lang.Object)>
+ -> <gleipner.core.SinkGadget: void sinkMethod(java.lang.String)>
+
